@@ -10,6 +10,11 @@ public class Car extends Vehicles {
         this.carType = carType;
     }
 
+    @Override
+    public String toString() {
+        return "Car | Car Type: "  + carType + " Number of Doors: " + numberOfDoors + "\n" + super.toString();
+    }
+
     public int getNumberOfDoors() {
         return numberOfDoors;
     }
