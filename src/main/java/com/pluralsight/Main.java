@@ -26,8 +26,14 @@ public class Main {
         elantra.setFuelCapacity(12);
         elantra.setNumberOfPassengers(5);
         elantra.setNumberOfDoors(4);
+        elantra.setMake("Hyundai");
+        elantra.setModel("Elantra SEL");
+        elantra.setYear(2023);
 
-        System.out.println("Car color: " + elantra.getColor());
+        System.out.println("Car Color: " + elantra.getColor());
+        System.out.println("Car Make: " + elantra.getMake());
+        System.out.println("Car Model: " + elantra.getModel());
+        System.out.println("Car Release Year: " + elantra.getYear());
         System.out.println("Car Type: " + elantra.getCarType());
         System.out.println("Car Fuel Cap: " + elantra.getFuelCapacity());
         System.out.println("Car Num Pass: " + elantra.getNumberOfPassengers());
