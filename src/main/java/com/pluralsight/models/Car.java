@@ -4,6 +4,12 @@ public class Car extends Vehicles {
     private int numberOfDoors;
     private String carType;
 
+    public Car(String color, String make, String model, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int year, int numberOfDoors, String carType) {
+        super(color, make, model, numberOfPassengers, cargoCapacity, fuelCapacity, year);
+        this.numberOfDoors = numberOfDoors;
+        this.carType = carType;
+    }
+
     public int getNumberOfDoors() {
         return numberOfDoors;
     }

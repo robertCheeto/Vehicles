@@ -4,6 +4,12 @@ public class Moped extends Vehicles {
     private int engineSize;
     private boolean hasPedalAssist;
 
+    public Moped(String color, String make, String model, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int year, int engineSize, boolean hasPedalAssist) {
+        super(color, make, model, numberOfPassengers, cargoCapacity, fuelCapacity, year);
+        this.engineSize = engineSize;
+        this.hasPedalAssist = hasPedalAssist;
+    }
+
     public boolean isHasPedalAssist() {
         return hasPedalAssist;
     }

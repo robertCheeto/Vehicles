@@ -4,6 +4,12 @@ public class Hovercraft extends Vehicles {
     private boolean isAmphibious;
     private double hoverHeight;
 
+    public Hovercraft(String color, String make, String model, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int year, boolean isAmphibious, double hoverHeight) {
+        super(color, make, model, numberOfPassengers, cargoCapacity, fuelCapacity, year);
+        this.isAmphibious = isAmphibious;
+        this.hoverHeight = hoverHeight;
+    }
+
     public boolean isAmphibious() {
         return isAmphibious;
     }
