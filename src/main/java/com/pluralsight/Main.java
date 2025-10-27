@@ -13,6 +13,16 @@ public class Main {
         Car elantra = new Car("Eletric Shadow", "Hyundai", "Elantra SEL", 5, 50, 12, 2023, 4, "Sedan");
         System.out.println(elantra);
 
+        System.out.println("\n*****\n");
+
+        SemiTruck bigRed = new SemiTruck("Red", "International", "Semi 5000", 2, 50000, 90, 2001, false, true, 0);
+        System.out.println(bigRed);
+
+
+
+
+
+
 //        slowRide.setColor("Red");
 //        slowRide.setFuelCapacity(5);
 //        slowRide.setNumberOfPassengers(2);
