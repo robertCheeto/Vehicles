@@ -14,6 +14,12 @@ public class Vehicles {
         this.year = year;
     }
 
+    @Override
+    public String toString() {
+        return "Color: " + color + "\nMake: " + make + "\nModel: " + model +
+                "\nYear: " + year + "\nNumber of Passengers: " + numberOfPassengers;
+    }
+
     public String getMake() {
         return make;
     }
