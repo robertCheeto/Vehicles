@@ -8,6 +8,11 @@ public class Main {
         Moped slowRide = new Moped("red", "Honda", "Bike 100", 2, 10, 5, 2019, 50, false);
         System.out.println(slowRide);
 
+        System.out.println("\n*****\n");
+
+        Car elantra = new Car("Eletric Shadow", "Hyundai", "Elantra SEL", 5, 50, 12, 2023, 4, "Sedan");
+        System.out.println(elantra);
+
 //        slowRide.setColor("Red");
 //        slowRide.setFuelCapacity(5);
 //        slowRide.setNumberOfPassengers(2);
