@@ -11,6 +11,12 @@ public class SemiTruck extends Vehicles {
         this.cargoWeight = cargoWeight;
     }
 
+    @Override
+    public String toString() {
+        return "SemiTruck | Is The Trailer Attached: " + isTrailerAttached +
+                " Is There a SleepCabin: " + hasSleepCabin + " Cargo Weight (lbs): " + cargoWeight + "\n" + super.toString();
+    }
+
     public boolean isTrailerAttached() {
         return isTrailerAttached;
     }
