@@ -4,6 +4,16 @@ public class Vehicles {
     private String color, make, model;
     private int numberOfPassengers, cargoCapacity, fuelCapacity, year;
 
+    public Vehicles(String color, String make, String model, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int year) {
+        this.color = color;
+        this.make = make;
+        this.model = model;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelCapacity = fuelCapacity;
+        this.year = year;
+    }
+
     public String getMake() {
         return make;
     }
