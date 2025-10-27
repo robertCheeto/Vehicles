@@ -10,6 +10,11 @@ public class Moped extends Vehicles {
         this.hasPedalAssist = hasPedalAssist;
     }
 
+    @Override
+    public String toString() {
+        return "\nMoped | " + "Engine Size (CCs): " + engineSize + " Has Pedal Assist: " + hasPedalAssist + "\n" + super.toString() ;
+    }
+
     public boolean isHasPedalAssist() {
         return hasPedalAssist;
     }
