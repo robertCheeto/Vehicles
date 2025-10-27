@@ -48,6 +48,22 @@ public class Main {
         System.out.println("Does it have a sleep cabin: " + twuk.isHasSleepCabin());
         System.out.println("Truck Fuel Cap: " + twuk.getFuelCapacity());
 
+        System.out.println("\n****\n");
+
+        Hovercraft hover = new Hovercraft();
+        hover.setColor("Gray");
+        hover.setCargoCapacity(10000);
+        hover.setNumberOfPassengers(100);
+        hover.setHoverHeight(200);
+        hover.setAmphibious(true);
+        hover.setFuelCapacity(200);
+
+        System.out.println("Hover color: " +hover.getColor());
+        System.out.println("Hover cargo cap: " + hover.getCargoCapacity());
+        System.out.println("Hover passenger count: " + hover.getNumberOfPassengers());
+        System.out.println("Hover Height: " + hover.getHoverHeight());
+        System.out.println("Is it water: " + hover.isAmphibious());
+        System.out.println("Hover fuel cap: " + hover.getFuelCapacity());
 
     }
 
