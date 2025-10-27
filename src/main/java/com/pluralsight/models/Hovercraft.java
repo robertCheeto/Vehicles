@@ -10,6 +10,12 @@ public class Hovercraft extends Vehicles {
         this.hoverHeight = hoverHeight;
     }
 
+    @Override
+    public String toString() {
+        return "Hovercraft | Is It Amphibious: " + isAmphibious +
+                " Hover Height (ft): " + hoverHeight + "\n" + super.toString();
+    }
+
     public boolean isAmphibious() {
         return isAmphibious;
     }
