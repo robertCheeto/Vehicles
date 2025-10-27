@@ -18,9 +18,10 @@ public class Main {
         SemiTruck bigRed = new SemiTruck("Red", "International", "Semi 5000", 2, 50000, 90, 2001, false, true, 0);
         System.out.println(bigRed);
 
+        System.out.println("\n*****\n");
 
-
-
+        Hovercraft hoover = new Hovercraft("Gray", "Hoover", "Craftonian", 1000, 10000, 70, 1950, true, 100);
+        System.out.println(hoover);
 
 
 //        slowRide.setColor("Red");
